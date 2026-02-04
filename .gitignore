@@ -1,2 +1,4 @@
 crawler-cargo/Cargo.lock
 crawler-cargo/target
+flights/Cargo.lock
+flights/target

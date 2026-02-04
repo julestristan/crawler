@@ -1,0 +1,12 @@
+[package]
+name = "flights"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# Pour gérer l'asynchrone
+tokio = { version = "1", features = ["full"] }
+chromiumoxide = "0.5"
+futures = "0.3"
+# Pour manipuler les sélecteurs plus facilement
+scraper = "0.18"
